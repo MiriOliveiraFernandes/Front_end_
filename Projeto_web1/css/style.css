@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab',cursive;
+    
+}
+
+header{
+
+    /*background-image: url('../img/canecabranca.avif');*/
+    background-image:url("../img/caneca\ marrom.jpg");
+    min-height: 450px;
+    padding: 30px 0;
+    background-size: cover;
+    background-position: center;
+    /*  background: linear-gradient(45deg, #6419b0,  #d70eff);   */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    position: relative;
+   /*   background-image: url('../img/Escolhida.png'); */
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+
+.menu-desktop{
+    float:right;
+}
+
+.menu-desktop ul{
+    list-style: none;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav.menu-desktop a {
+    color:#734836;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.menu-moble{
+    float: right;
+    display: none;
+}
+
+.menu-moble ul{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    padding: 70px 0 30px 0;
+    display: none;
+    text-align: center;
+    background-color:rgba(117, 0, 250, 0.6);;
+}
+
+.menu-moble i {
+    position: relative;
+    z-index: 2;
+}
+.menu-moble a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 19px;
+}
+
+.menu-moble li {
+    padding: 10px 0;
+}
+.chamada{
+    padding: 150px 0;
+}
+
+.chamada h2{
+    color: #5e3b2e;
+    font-family: 'Comfortaa',cursive;
+    font-size: 40px;
+}
+
+.chamada p {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 10px;
+   
+}
+
+.chamada form{
+    margin-top: 15px;
+}
+
+.chamada input[type="email"]:focus{outline: 0;}
+
+.chamada input[type="email"]{
+   
+    width: 300px ;
+    height: 41px ;
+    border-radius: 100px ;
+    background-color: #fff;
+    border: 0;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+
+.chamada input[type="submit"]{
+    width: 200px ;
+    height: 41px ;
+    border-radius: 100px ;
+    background-color: rgba(134,84,65,0.9);
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 23px;
+}
+
+.descricao{
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px 0x;
+}
+
+.descricao p{
+    font-size: 25px;
+    font-style: italic;
+    
+}
+
+.descricao b {
+    color: #734836; ;
+    font-size: 27px;
+}
+
+.texto-descricao{
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+}
+
+.texto-descricao h3{
+    color: #764186;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 70px;
+}
+
+.texto-descricao p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.descricao2 img{
+    width: 40%;
+    float: left;
+}
+
+.clear{
+    clear: both ;
+}   
+
+.descricao3{
+    padding: 30px 0 70px 0;
+}
+
+.descricao3 > .container{
+   background-image: url('../img/caneca-coracao.png');
+   background-size: cover;
+   position: relative;   
+   min-height: 400px;
+   
+}
+
+.depoimento{
+    position: absolute;
+    background-color: #fff;
+    /*  left: 60%;*/
+    /*right: ;*/
+    max-width: 507px;
+    bottom: -30px;
+    padding: 40px;
+    box-shadow: 0 8px 20px 0 rgba(51, 45, 45, 0.8);
+}
+
+.depoimento b {
+    font-size: 19px;
+    color: rgba(117, 0, 250, 0.6);
+}
+
+.titulo-servicos{
+    text-align: center  ;
+}
+
+.combo-produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.espaco-produtos{
+    display: flex;
+    width: 33%;
+    padding: 35px;
+   
+}
+
+.espaco-produtos img{
+    width: 100%;
+}
+
+.espaco-produtos p {
+    margin: 9px 0 ;
+
+}
+
+.espaco-produtos a{
+    display: inline-block;
+    border: 1px solid;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 6px 13px;
+    background-color: rgba(117, 0, 250, 0.6) ;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+
+.espaco-produtos:hover{
+    transition: 2s;
+    scale: 1.1;
+}
+
+
+.box-produtos{
+    border-radius: 3px;
+    height: 100%;
+    box-shadow: 0 8px 20px 0 #6c4768;
+    padding: 10px;
+
+}
+
+.formulario{
+    padding: 30px 0;
+}
+
+.formulario h2{
+    text-align: center;
+}
+
+.formulario form{
+    margin-top: 10px;
+}
+
+.formulario input[type = text]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #6c4768;
+    border-radius: 100px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 130px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #6c4768;
+}
+
+.formulario input[type = submit]{
+    width: 10%;
+    height: 40px;
+    border: 1px solid rgba(117, 0, 250, 0.6);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 90%;
+    padding: 10px;
+    background-color: rgba(117, 0, 250, 0.6);
+}
+
+footer{
+    margin: 50px 0;
+    /*border-top: 1px solid rgba(117, 0, 250, 0.6);
+   /* padding: 100px 100px;*/
+    background-color:#c7a0bc;
+    
+}
+
+.box-footer{
+    margin: 20px 0;
+    float: left;
+    width: 33.33%;
+    padding: 0 15px;
+    color:#6c4768;
+    
+}
+
+.box-footer p {
+    margin-top: 15px;
+    font-size: 21px;
+    
+
+}
+
+.box-footer input[type="text"]{
+    width: 80%;
+    padding-left: 10px;
+    max-width: 190px;
+    height: 45px;
+    border-radius: 100px;
+    border: 1px solid #6c4768;
+    margin: 10px;
+
+
+}
+
+.box-footer button{
+    margin-left: 10px;
+    max-width: 60px;
+    height: 45px;
+    border: 1px solid #6c4768;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 70%;
+  
+}
+
+
+/* Abaixo codigo de responsividade */
+/* definindo para tablt e desktop */
+
+@media screen and (max-width: 1024px) {
+
+    .menu-desktop{
+        display: none;
+    }
+    
+    .menu-moble{
+        display: block;
+    }
+
+    .chamada{
+        text-align: center;
+    }
+    .chamada input[type="email"]{
+        margin-bottom: 10px;
+    }
+
+    .depoimento{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        padding: 30px;
+        width: 90%;
+        transform: translate(-50%,-50%);
+    }
+
+    .espaco-produtos{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 10px;
+    }
+
+    .box-footer{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+}
+
+/* definindo medida para celulares */
+
+@media screen and (max-width: 768px) {
+
+    .texto-descricao{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .descricao2 img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: none;
+        margin-top: 10px;
+        max-width: 500px;
+    }
+
+}
